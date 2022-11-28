@@ -141,6 +141,11 @@ img {
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 
+.menu__link:hover,
+.menu__link:active{
+color: var(--blue2--);
+} 
+
   .current {
   color: var(--blue1--);
   position: relative;
@@ -156,11 +161,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
     left: 0;
     bottom: 0;
   }
-
-  .menu__link:hover,
-  .menu__link:active{
-  color: var(--blue2--);
-  } 
 
  .contact__mail {
   font-weight: 500;
@@ -275,6 +275,8 @@ background-size: cover;
  background-color: #188CE8;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 color: #FFFFFF;}
+
+
 
 .hero {
 padding: 94px 0;
